@@ -1,0 +1,68 @@
+body {
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-image: url('elements/Images/Sunset.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, p {
+    font-weight: 400;
+}
+strong{
+    font-weight: 700;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 35px;
+}
+div{
+    font-size: 25px;
+}
+#lineFirst{
+
+    border-color: black;
+
+}
+#link{
+    color: black;
+    background-color: blue;
+
+}
+
+#buttonAgree{
+    background-color: green;
+    border-radius: 20%;
+    font-size: 50px;
+    width: 300px;
+    height: 150px;
+    border: 6px solid #000000;
+    margin: 50px 75px;
+    cursor: pointer;
+}
+
+
+#buttonDeny{
+    background-color: red;
+    border-radius: 20%;
+    font-size: 50px;
+    width: 300px;
+    height: 150px;
+    border: 6px solid #000000;
+    margin: 50px 75px;
+    transform: translateX(0px);
+    transform: translateY(0px);
+    cursor:not-allowed;
+}
+#Credits{
+    font-size: xx-small;
+    margin: 100px 00px;
+}
